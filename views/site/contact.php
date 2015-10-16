@@ -11,6 +11,8 @@ use yii\captcha\Captcha;
 $this->title = 'Votar';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<body background="home-picture.jpg">
+
 <div class="site-contact">
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -30,3 +32,4 @@ $this->params['breadcrumbs'][] = $this->title;
         <div id="contenido"></div>
     </div>
 </div>
+</body>
