@@ -1,6 +1,7 @@
 html,
 body {
     height: 100%;
+    background-image: url("home-picture.jpg");
 }
 
 .wrap {
@@ -24,6 +25,7 @@ body {
 .jumbotron {
     text-align: center;
     background-color: transparent;
+    color: white;
 }
 
 .jumbotron .btn {
