@@ -12,13 +12,22 @@ use yii\captcha\Captcha;
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Hola!</h1>
+        <h1>Freechords</h1>
 
+<<<<<<< HEAD
     <p>
         <?= Html::a('Eres Nuevo?', ['signup'], ['class' => 'btn btn-success']) ?>
     </p>
     </div>
 
    
+=======
+        <p class="lead"></p>
+
+        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Un boton que se le ponen links</a></p>
+    </div>
+
+    
+>>>>>>> origin/nicolas
 </div>
 </body>
