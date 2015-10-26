@@ -12,23 +12,25 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
    <img src="pearl-jam.jpg" Alt="Pearl jam" class="img-rounded"  width="900" height="300">
-
+<br><br>
   <div>
-   <button type="button" class="btn btn-primary">Compartir</button>
+  
+   <form method="post" enctype="multipart/form-data"><br>
+<input type=file size=60 name="file1"><br>
+<input type=submit value="subir"><br>
+</form><br>
  </div>
 
-  <div><form action="action_page.php">
-  <textarea name="message" rows="10" cols="70">
-  ...
-  </textarea>
-  <audio controls>
-  <source src="horse.ogg" type="audio/ogg">
+  <div><form action="comentario.php" method="post">
+  <textarea name="message" rows="5" cols="60">
+  </textarea></form>
+  <input type="submit">
+</div>
+<BR>
+  <div> <audio controls>
   <source src="Pearl Jam-Even Flow.mp3" type="audio/mpeg">
 
-</audio>
-  <br><br>
-  <input type="submit">
-</form></div>
-    <code><?= __FILE__ ?></code>
+</audio></div>
+    
 </div>
 </body>
