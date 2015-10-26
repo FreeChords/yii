@@ -36,7 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
         
         
 <div id="video" data-id="1">
-        <iframe width="560" height="315" src="//www.youtube.com/embed/O3rpmctmC_M" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="//www.youtube.com/embed/qatmJtIJAPw" frameborder="0" allowfullscreen></iframe>
         <a href="#" class="like" name="bueno">
             <img src="like.ico" alt="Me gusta">Me gusta
         </a>
