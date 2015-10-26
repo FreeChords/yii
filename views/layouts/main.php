@@ -34,11 +34,22 @@ AppAsset::register($this);
         ],
     ]);
     echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
+        'options' => ['class' => 'navbar-nav navbar-left'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
+<<<<<<< HEAD
             ['label' => 'Perfil', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
+=======
+            ['label' => 'About', 'url' => ['/site/about']],
+            ['label' => 'Votar', 'url' => ['/site/contact']],
+            
+        ],
+    ]);
+     echo Nav::widget([
+        'options' => ['class' => 'navbar-nav navbar-right'],
+        'items' => [
+>>>>>>> refs/remotes/origin/Diego
             Yii::$app->user->isGuest ?
                 ['label' => 'Log in', 'url' => ['/site/login']] :
                 [

@@ -7,6 +7,7 @@ use yii\helpers\Html;
 $this->title = 'Perfil';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<body background="home-picture.jpg">
 <div class="site-about">
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -30,3 +31,4 @@ $this->params['breadcrumbs'][] = $this->title;
 </form></div>
     <code><?= __FILE__ ?></code>
 </div>
+</body>
